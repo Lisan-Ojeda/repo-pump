@@ -1,0 +1,302 @@
+body{
+        background-image:url(./img/equipo-de-gimnasio-en-3d.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#ffffff ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Fondo azul personalizado */
+.custom-bg {
+  background-color: rgb(20, 71, 230);
+}
+
+/* Estilo del logo */
+.nav-logo {
+  height: 50px;
+  width: auto;
+}
+
+
+@media (min-width: 801px){
+ 
+   #img-fluid-mov{
+    padding: 1rem;
+     display: flex;
+     justify-content: center;
+  }
+  
+   .cont-text-index{
+    margin: 2rem auto;
+    width: 70%;
+
+
+
+    position: relative;
+  }
+
+#carouselExampleDark{
+  max-width: 70%;
+  margin: 2rem auto;
+position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grupo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centrado horizontal */
+  gap: 2rem; /* espacio entre cards */
+  margin-bottom: 4rem; /* separación entre grupos */
+}
+
+/* Estilo para cada card */
+.card {
+  width: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.footer-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.conteiner-fluit{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#conocer-index{
+  text-align: center;
+  padding-top: 2rem;
+  text-decoration:underline;}
+}
+
+@media ( min-width: 501px) and (max-width: 800px) {
+  
+    .navbar-nav {
+    text-align: center;
+  }
+
+  .form-control,
+  .btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #img-fluid-mov{
+    padding: 1rem;
+     display: flex;
+     justify-content: center;
+  }
+  
+   .cont-text-index{
+    margin: 2rem auto;
+    width: 70%;
+
+
+
+    position: relative;
+  }
+
+  .grupo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centrado horizontal */
+  gap: 2rem; /* espacio entre cards */
+  margin-bottom: 4rem; /* separación entre grupos */
+}
+
+/* Estilo para cada card */
+.card {
+  width: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+}
+
+
+/* Ajustes para móviles */
+@media (max-width: 500px) {
+  .nav-logo {
+    height: 40px;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(20, 71, 230);
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .form-control,
+  .btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .img-fluid{
+    padding: 1rem;
+  }
+
+#conocer-index{
+  text-align: center;
+  padding-top: 2rem;
+  text-decoration:underline;
+}
+
+.grupo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centrado horizontal */
+  gap: 2rem; /* espacio entre cards */
+  margin-bottom: 4rem; /* separación entre grupos */
+}
+
+/* Estilo para cada card */
+.card {
+  width: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+}
+
+.cont-text-index{
+  background-color: rgb(203, 211, 237);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 2rem auto;
+box-shadow: 1px 9px 6px 2px rgba(2,7,23,0.8);
+-webkit-box-shadow: 1px 9px 6px 2px rgba(2,7,23,0.8);
+-moz-box-shadow: 1px 9px 6px 2px rgba(2,7,23,0.8);
+position: relative;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+#carouselExampleDark{
+  padding: 2rem;
+    background-color: rgb(20, 71, 230);
+
+}
+
+.color-main{
+  background-color:rgb(20, 71, 230);
+  padding-top: 5rem;
+}
+
+.footer-contenedor{
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.footer-redes {
+  width: 45%;
+  margin: 2rem;
+}
+
+
+.footer-iconos {
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer-iconos img {
+  margin: 10px;
+  width: 4rem;
+  height: 4rem;
+  transition: transform 0.3s;
+}
+
+.footer-iconos img:hover {
+  transform: scale(1.5);
+}
+
+
+.footer-formulario{
+    width: 45%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.footer-formulario input,
+.footer-formulario textarea {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.footer-formulario button {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-formulario button:hover {
+  background-color:rgb(20, 71, 230);
+  color: white;
+}
+
+.titulos{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+html{ scroll-behavior: smooth;}
+
+
+.adultos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+
